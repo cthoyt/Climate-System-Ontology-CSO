@@ -9,6 +9,12 @@ the original repository.
 
 See also original author's publication in https://www.intechopen.com/chapters/86794.
 
+To convert the OWL file to OBO, use:
+
+```shell
+robot convert --input cso.owl --output cso.obo --check=false
+```
+
 ## Common Core Ontologies
 
 The Common Core Ontologies (CCO) comprise twelve ontologies that are designed to represent and integrate taxonomies of
